@@ -1,0 +1,62 @@
+<!DOCTYPE html>  
+<html>
+
+<head>
+    <meta charset="uft-8" />
+    <title>Pagina de text </title>
+    <meta content="width=device-width, initial-scale=1.0, maximu-scale=1.0, user-scalable=no" name="viewport" />
+    <meta content="" name="description" />
+    <meta content="" name="author" />
+    <link rel="stylesheet" href="CSS/estils.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html">Index</a>
+        <a href="nouclient.html">Nou client</a>
+        <a href="pagina_2.html">Pagina2</a>
+    </header>
+    <section>
+        <div>
+            <h1>Insertar dades client</h1>
+            <form action="nouclient.html" method="post">
+                <fieldset>
+                    <input type="text" name="Nom" required placeholder="Nom Obligatori" />
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="Llinatges" required placeholder="Llinatges Obligatori" />
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="DNI" required maxlength="9" placeholder="DNI Obligatori" />
+                </fieldset>
+                <fieldset>
+                    <input type="date" name="Data de naixament" placeholder="Data de naixament " />
+                </fieldset>
+                <fieldset>
+                    <input type="tel" name="Telefon"placeholder="Telefon Opcional" />
+                </fieldset>
+                <fieldset>
+                    <input type="email" name="Email" required maxlength="150" required placeholder="Email Obligatori"/>
+                </fieldset>
+                <fieldset>
+                    <input type="text" name="Carrer" required maxlength="250" required placeholder="Carrer Obligatori"/>
+                </fieldset>
+                <fieldset>
+                    <button type="submit">
+                        Enviar
+                    </button>
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <section>
+        <div>
+            <h2>Nou Client</h2>
+        </div>
+    </section>
+    <footer>
+        Peu de pagina 1
+    </footer>
+</body>
+
+</html>
