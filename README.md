@@ -1,1 +1,3 @@
-# club-esports
+# esports
+
+Jordi & David BBDD
